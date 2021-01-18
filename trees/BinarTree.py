@@ -19,7 +19,7 @@ def printTreeDetailed(root):
     if root.left !=None:
         print("L",root.left.data, end=",")
     if root.right !=None:
-        print("R",root.left.data)
+        print("R",root.right.data)
     print()
     printTreeDetailed(root.left)
     printTreeDetailed(root.right)
