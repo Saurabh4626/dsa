@@ -3,12 +3,12 @@ class BinaryTreeNode:
         self.data=data
         self.left=None
         self.right=None
-def PreOrder(root):
+def InOrder(root):
     if root is None:
         return
-    PreOrder(root.left)
+    InOrder(root.left)
     print(root.data)
-    PreOrder(root.right)
+    InOrder(root.right)
 
 bt1=BinaryTreeNode(1)
 bt2=BinaryTreeNode(2)
@@ -23,4 +23,4 @@ bt2.left=bt4
 bt2.right=bt5
 bt3.left=bt6
 bt3.right=bt7
-PreOrder(bt1)
+InOrder(bt1)
