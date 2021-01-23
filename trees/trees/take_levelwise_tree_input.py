@@ -39,7 +39,7 @@ def levelwise_input():
         right_node_data = int(input())
         if right_node_data != -1:
             right_node = BinaryTreeNode(right_node_data)
-            current_node.left = right_node
+            current_node.right = right_node
             q.put(right_node)
     return root
 root=levelwise_input()
