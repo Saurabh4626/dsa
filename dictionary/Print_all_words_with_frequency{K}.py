@@ -1,7 +1,7 @@
 a="this is string of word it can contain many many word"
 k=2
 words=a.split() ##list of all words
-d={}
+d={}  
 
 ## one way of creating dictionary of frequency of words
 
