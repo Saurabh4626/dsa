@@ -20,7 +20,7 @@ class BST:
         print()
         self.printTreeHelper(root.left)
         self.printTreeHelper(root.right)
-    def printTree(self,):
+    def printTree(self):
         return self.printTreeHelper(self.root)
 
     ########### SEARCHING IN TREE #######
