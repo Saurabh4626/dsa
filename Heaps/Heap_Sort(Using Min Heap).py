@@ -27,4 +27,4 @@ def heapSort(arr):
     return
 arr=list(map(int,input().split()))
 heapSort(arr)
-print(*arr) 
+print(*arr)  
