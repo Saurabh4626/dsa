@@ -9,9 +9,9 @@ class Graph:
         self.adjMatrix[v2][v1] = 1
 
     def __bfsHelper(self,starting_vertex,visited_array):
-        q=queue.Queue
+        q=queue.Queue()
         q.put(starting_vertex)
-        visited_array[s]=True
+        visited_array[starting_vertex]=True
         while q.empty() is False:
             u=q.get()
             print(u)
@@ -30,4 +30,4 @@ g.addEdge(0,2)
 g.addEdge(2,4)
 g.addEdge(2,3)
 print(g)
-g.dfs()
+g.bfs()
