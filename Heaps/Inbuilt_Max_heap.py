@@ -6,3 +6,4 @@ print(heapq._heappop_max(li))  ##removing max element from max heaap
 print(li)
 heapq._heapreplace_max(li,0)  ##removing max and replacing it with other element
 print(li)
+ 
