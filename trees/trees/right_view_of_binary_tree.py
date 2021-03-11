@@ -63,10 +63,10 @@ def right_view(root):
                 q.put(curr_node.right)
             size-=1
         res.append(level)
-    left_view=[]
+    right_view=[]
     for i in res:
-        left_view.append(i[len(i)-1])
-    return left_view
+        right_view.append(i[len(i)-1])
+    return right_view
 root=levelwise_input()
 print(right_view(root))
 
