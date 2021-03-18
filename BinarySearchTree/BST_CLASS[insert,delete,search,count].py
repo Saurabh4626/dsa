@@ -95,7 +95,7 @@ class BST:
             self.numNodes-=1
         return deleted
 
-    ###########  TOTAL NODE IN TREE #######
+    ###########  TOTAL NODE IN TREE #########
     def count(self):
         return self.numNodes
 
@@ -109,4 +109,4 @@ print(b.isPresent(7))
 print(b.deleteData(4))
 print(b.deleteData(10))
 print(b.count())
-b.printTree()     
+b.printTree()      
